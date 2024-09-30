@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="computer-frame">
+    <div class="screen">
+      <div class="container">
+        <h1>BookMySeats</h1>
+        <div class="screen-header">All Eyes This Way Please!!!</div>
+        <div class="seats-grid" id="seats-grid"></div>
+        <div class="selected-info">
+          <p><strong>Selected Seats:</strong> <span id="selected-seats"></span></p>
+          <p><strong>Total Price:</strong> ₹<span id="total-price">0</span></p>
+        </div>
+        <button id="book-btn" class="book-btn">Book</button>
+        <div id="confirmation-message" class="confirmation-message"></div>
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-color available"></div>
+            <span class="legend-text">Available</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color booked"></div>
+            <span class="legend-text">Booked</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color selected"></div>
+            <span class="legend-text">Selected</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="computer-base"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
